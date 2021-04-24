@@ -20,6 +20,6 @@ function compute()
 function updateRate() 
 {
     var rateval = document.getElementById("rate").value;
-    var rateval_disp = rateval + "%"
+    var rateval_disp = 5 + "%"
     document.getElementById("rate_val").innerText=rateval_disp;
 }
